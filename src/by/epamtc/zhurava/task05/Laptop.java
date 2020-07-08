@@ -2,12 +2,14 @@ package by.epamtc.zhurava.task05;
 
 public class Laptop {
 
-	private double batteryCapacity;
-	private String os;
 	private int memoryRom;
 	private int systemMemory;
-	private double cpu;
 	private int displayInchs;
+	
+	private double batteryCapacity;
+	private double cpu;
+	
+	private String os;
 
 	public Laptop(double batteryCapacity, String os, int memoryRom, int systemMemory, double cpu, int displayInchs) {
 

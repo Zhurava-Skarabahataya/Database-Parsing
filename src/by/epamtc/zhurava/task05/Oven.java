@@ -6,6 +6,7 @@ public class Oven {
 	private int weight;
 	private int capacity;
 	private int depth;
+	
 	private double height;
 	private double width;
 
