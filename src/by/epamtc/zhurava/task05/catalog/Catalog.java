@@ -10,7 +10,7 @@ import by.epamtc.zhurava.task05.factory.EntityFactory;
 
 public class Catalog {
 
-	String content;
+	private String content;
 
 	public Catalog(String content) {
 
