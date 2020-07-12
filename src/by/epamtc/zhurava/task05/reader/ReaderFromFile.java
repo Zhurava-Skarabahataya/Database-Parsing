@@ -11,7 +11,7 @@ public class ReaderFromFile implements Reader{
 		StringBuilder sb = new StringBuilder();
 
 		try (BufferedReader reader = new BufferedReader(
-				new FileReader("src\\by\\epamtc\\zhurava\\task05\\database.txt"))) {
+				new FileReader("source\\database.txt"))) {
 
 			String line = reader.readLine();
 
